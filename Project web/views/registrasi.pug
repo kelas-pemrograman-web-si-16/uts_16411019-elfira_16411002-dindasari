@@ -1,0 +1,35 @@
+html
+    head
+        include head
+    body
+        .wrapper
+            .inner
+                .image-holder
+                    img(src='aset/images/gambarr.jpg', alt='')
+                form(action='')
+                    h3 Sign Up
+                    .form-holder.active
+                        input.form-control(type='text', placeholder='name')
+                    .form-holder
+                        input.form-control(type='text', placeholder='e-mail')
+                    .form-holder
+                        input.form-control(type='password', placeholder='Password', style='font-size: 15px;')
+                    .checkbox
+                        label
+                            input(type='checkbox', ='')
+                            |  I'm Teacher
+                            a(href='#')
+                            span.checkmark
+                    .checkbox
+                        label
+                            input(type='checkbox', ='')
+                            |  I'm Student
+                            a(href='#')
+                            span.checkmark
+                    .form-login
+                        button Sign up
+                        p
+                            | Already Have account?
+                            a(href='login') Login
+        script(src='aset/js/jquery-3.3.1.min.js')
+        script(src='aset/js/main.js')
